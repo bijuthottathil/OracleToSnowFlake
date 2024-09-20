@@ -1,4 +1,4 @@
-# Pushing  Oracle table from On-Prem to  Snowflake using private stage (Using Python and SnowSQL) without any cloud storage
+# Pushing  Oracle table from On-Prem to  Snowflake (using  Python , SnowSQL and SnowFlake private stage) without any cloud storage
 
 ![image](https://github.com/user-attachments/assets/3a4ab2c5-27be-4234-ae0d-c9bc787d9b10)
 
