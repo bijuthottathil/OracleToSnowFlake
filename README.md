@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/3a4ab2c5-27be-4234-ae0d-c9bc787d9b10)
 
-This poc is example to copy oracle table data from onprem to SnowFlake DB using Internal stage (without azure blob)
+
 
 Initially I created Oracle database in my personal machine
 
@@ -55,6 +55,16 @@ Next step is to load csv data from Internal stage to SnowFlake table
 Data is succefully loaded in SnowFlake
 
 ![image](https://github.com/user-attachments/assets/58954d93-367e-4da0-9417-996e70688ae9)
+
+
+Challenges if we are not using Cloud Storages
+
+ 1) We have to load data manually from SnowFlake internal stage to SnowFlake table because we cannot utilze event based trigger feature in S3 and Azuree BLOB
+ 2) If table size is huge, multiple loads required. But we will be able load unique data using CDC code supported by SnowFlake using Merge
+
+
+# Happy coding .....
+    
 
 
 
