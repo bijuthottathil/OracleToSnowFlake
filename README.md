@@ -1,4 +1,7 @@
-# OracletoSnowflake
+# Pushing  Oracle table from On-Prem to  Snowflake using private stage (Using Python and SnowSQL) without any cloud storage
+
+![image](https://github.com/user-attachments/assets/3a4ab2c5-27be-4234-ae0d-c9bc787d9b10)
+
 This poc is example to copy oracle table data from onprem to SnowFlake DB using Internal stage (without azure blob)
 
 Initially I created Oracle database in my personal machine
